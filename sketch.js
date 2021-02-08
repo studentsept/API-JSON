@@ -145,7 +145,7 @@ function draw() {
   blocks7.score();
   blocks8.score();
   blocks9.score();
-  
+  drawSprites();
 }
 function mouseDragged(){
   Matter.Body.setPosition(this.polygon,{x:mouseX,y:mouseY});
